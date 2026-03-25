@@ -1,0 +1,21 @@
+# Segredos — NUNCA commitar
+.env
+
+# Projetos gerados localmente
+formalizeai_projects/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
