@@ -186,7 +186,7 @@ Make sure to update tests and documentation accordingly.
 
 📬 Contact
 
-Created by [Your Name] – feel free to reach out via GitHub issues or [email].
+Created by Dione Castro Alves – feel free to reach out via GitHub issues .
 
 ---
 
