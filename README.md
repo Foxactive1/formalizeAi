@@ -110,13 +110,21 @@ Example (Render):
 
 Method Endpoint Description
 GET /api/health Check API health and configuration status
+
 GET /api/models List available Groq models
+
 GET /api/projects List all projects (Supabase or local)
+
 POST /api/projects Create a new project (name, optional model)
+
 GET /api/projects/<name> Retrieve a project’s full conversation
+
 DELETE /api/projects/<name> Delete a project (Supabase + local files)
+
 POST /api/projects/<name>/chat Send a user message, get AI response, detect final SDD
+
 POST /api/projects/<name>/regenerate-sdd Force SDD regeneration from existing history
+
 GET /api/analytics (Supabase only) Return project statistics
 
 The frontend (served at /) automatically calls these endpoints.
