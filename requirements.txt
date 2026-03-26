@@ -1,5 +1,9 @@
-flask==3.0.3
-flask-cors==4.0.1
-groq==0.9.0
-python-dotenv==1.0.1
-gunicorn==22.0.0
+# FormalizeAI v2.1 — requirements.txt
+# CORREÇÃO: groq>=1.0.0 é compatível com httpx>=0.28 (remoção do argumento 'proxies')
+
+flask>=3.0.0
+flask-cors>=4.0.0
+groq>=1.1.2          # Fix: versões <0.13 passavam 'proxies' ao httpx e quebravam no deploy
+httpx>=0.28.0         # Pinando explicitamente para evitar regressão
+gunicorn>=21.2.0
+python-dotenv>=1.0.0
