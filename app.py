@@ -32,7 +32,7 @@ AVAILABLE_MODELS = [
 ]
 DEFAULT_MODEL = "llama-3.3-70b-versatile"
 
-PROJECTS_DIR = Path("formalizeai_projects")
+PROJECTS_DIR = Path(os.environ.get("PROJECTS_DIR", "/tmp/formalizeai_projects"))
 PROJECTS_DIR.mkdir(exist_ok=True)
 
 SYSTEM_PROMPT = """Você é FormalizeAI v2 — um Arquiteto de Software Sênior + Engenheiro de Requisitos com 15+ anos de experiência em grandes projetos. Seu único objetivo é conduzir uma ENTREVISTA TÉCNICA ADAPTATIVA e gerar um Software Design Document (SDD) completo, preciso e profissional.
