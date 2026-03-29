@@ -2,7 +2,7 @@
 """
 FormalizeAI v2.1 - Flask API
 Entrevista Técnica Adaptativa + Geração de SDD
-Powered by Groq (LLaMA 3) — deploy-ready para Railway / Render / VPS
+Powered by Groq (LLaMA 3) — deploy-ready para Railway / Render /  VPS
 """
 
 import json
