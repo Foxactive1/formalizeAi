@@ -24,7 +24,7 @@ CORS(app)
 # ===================== CONFIG =====================
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
-AVAILABLE_MODELS = [
+AVAILABLE_MODELS =  [
     "llama-3.3-70b-versatile",  # Melhor qualidade — recomendado para SDD
     "llama-3.1-8b-instant",     # Rápido e leve
     "llama3-70b-8192",          # LLaMA 3 70B clássico
