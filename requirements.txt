@@ -1,9 +1,37 @@
-# FormalizeAI v2.1 — requirements.txt
-# CORREÇÃO: groq>=1.0.0 é compatível com httpx>=0.28 (remoção do argumento 'proxies')
-
-flask>=3.0.0
-flask-cors>=4.0.0
-groq>=1.1.2          # Fix: versões <0.13 passavam 'proxies' ao httpx e quebravam no deploy
-httpx>=0.28.0         # Pinando explicitamente para evitar regressão
-gunicorn>=21.2.0
-python-dotenv>=1.0.0
+beautifulsoup4==4.14.3
+blinker==1.9.0
+certifi==2026.2.25
+charset-normalizer==3.4.5
+click==8.3.1
+distlib==0.4.0
+dotenv==0.9.9
+filelock==3.25.2
+Flask==3.1.3
+flask-cors==6.0.2
+h11==0.16.0
+idna==3.11
+iniconfig==2.3.0
+itsdangerous==2.2.0
+Jinja2==3.1.6
+markdown-it-py==4.0.0
+MarkupSafe==3.0.3
+maturin==1.12.6
+mdurl==0.1.2
+packaging==26.0
+platformdirs==4.9.4
+pluggy==1.6.0
+Pygments==2.19.2
+pytest==9.0.2
+python-discovery==1.2.1
+python-dotenv==1.2.2
+requests==2.32.5
+rich==14.3.3
+setuptools==82.0.1
+soupsieve==2.8.3
+typing_extensions==4.15.0
+urllib3==2.6.3
+uvicorn==0.41.0
+virtualenv==21.2.0
+Werkzeug==3.1.6
+wheel==0.46.3
+groq==0.5.0
